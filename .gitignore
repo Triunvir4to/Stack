@@ -30,3 +30,28 @@
 *.exe
 *.out
 *.app
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+*.cmake
+
+# CMake specific files
+*.CMakeLists.txt.user
+*.CMakeLists.txt.user.*
+
+# CMake build directories
+cmake-build-debug/
+cmake-build-release/
+
+# Ignore all /build/ directories
+**/build/
+
+# Ignore specific file patterns for CMake
+*.-prefix
+*-build
+
+# Ignore the install_manifest.txt file which is generated on install commands
+install_manifest.txt
