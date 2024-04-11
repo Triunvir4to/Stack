@@ -50,9 +50,9 @@ This project uses CMake for easy compilation and building. Follow these steps to
    mkdir build && cd build
    ```
 2. **Generate Build System:** Use the cmake to compile the project
-  ```bash
-  cmake ..
-  ```
+   ```bash
+   cmake ..
+   ```
 3. **Build the Project:** Use the generated build system to compile the project.
     ```bash
     make
